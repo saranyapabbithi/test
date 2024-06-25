@@ -8,6 +8,8 @@ import Contact from './Components/Contact';
 import Row  from 'react-bootstrap/Row';
 import Col  from 'react-bootstrap/Col';
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Counter from './Components/Counter';
+import Counter1 from './Components/Counter1';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
           <Route path='/'exact Component={Home}/>
           <Route path='/about'exact Component={About}/>
           <Route path='/services'exact Component={Services}/>
-          <Route path='/contac'exact Component={Contact}/>
+          <Route path='/contact'exact Component={Contact}/>
+          <Route path='/counter'exact Component={Counter}/>
+          <Route path='/counter1'exact Component={Counter1}/>
           </Routes>
           </Col>
         </Router>

@@ -5,12 +5,14 @@ import{Link} from 'react-router-dom'
 
  function Header() {
   return (
-    <div>
+    <div  className='menu'>
       <ul>
       <Link to='/'><li>Home</li></Link>
-      <Link to='/about'><li>About</li></Link>
+      <Link to='/about'><li>Sales</li></Link>
       <Link to='/services'><li>Services</li></Link>
       <Link to='/contact'><li>Contact</li></Link>
+      <Link to='/counter'><li>Counter</li></Link>
+      <Link to='/counter1'><li>Counter1</li></Link>
       </ul>     
     </div>
   )
