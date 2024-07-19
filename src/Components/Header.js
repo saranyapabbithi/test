@@ -7,7 +7,7 @@ import{Link} from 'react-router-dom'
   return (
     <div  className='menu'>
       <ul>
-      <Link to='/'><li>Home</li></Link>
+      <Link to='/test'><li>Home</li></Link>
       <Link to='/about'><li>Sales</li></Link>
       <Link to='/services'><li>Services</li></Link>
       <Link to='/contact'><li>Contact</li></Link>
